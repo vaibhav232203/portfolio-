@@ -3,6 +3,7 @@ import { useEffect, useState } from "react";
 import { PiStudentBold } from "react-icons/pi";
 import { RiBookShelfLine, RiCommandLine, RiMenu3Line, RiCloseLine } from "react-icons/ri";
 import { FaGithub, FaLinkedin, FaEnvelope, FaExternalLinkAlt, FaCodeBranch } from "react-icons/fa";
+import mainImg from "./assets/img/vaibhav .jpeg"
 
 // Sophisticated animation orchestrations
 const containerVariants = {
@@ -277,7 +278,7 @@ const App = () => {
               <div className="relative w-full h-full rounded-2xl overflow-hidden border border-zinc-800 shadow-2xl p-2 bg-[#030712]">
                 <img 
                   className="w-full h-full rounded-xl object-cover" 
-                  src="src/assets/img/vaibhav .jpeg" 
+                  src={mainImg}
                   alt="Vaibhav Profile" 
                 />
                 <div className="absolute inset-0 bg-gradient-to-tr from-transparent via-white/5 to-transparent translate-x-[-100%] group-hover:translate-x-[100%] transition-transform duration-1000 ease-out" />
