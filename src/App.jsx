@@ -3,7 +3,7 @@ import { useEffect, useState } from "react";
 import { PiStudentBold } from "react-icons/pi";
 import { RiBookShelfLine, RiCommandLine, RiMenu3Line, RiCloseLine } from "react-icons/ri";
 import { FaGithub, FaLinkedin, FaEnvelope, FaExternalLinkAlt, FaCodeBranch } from "react-icons/fa";
-import mainImg from "./assets/img/vaibhav .jpeg"
+import mainImg from "../public/img/vaibhav .jpeg"
 
 // Sophisticated animation orchestrations
 const containerVariants = {
@@ -361,7 +361,7 @@ const App = () => {
           >
             <motion.div variants={itemVariants} whileHover={{ y: -6 }} className="bg-zinc-900/30 border border-zinc-800/80 rounded-2xl overflow-hidden shadow-xl flex flex-col group transition-all duration-300 hover:border-zinc-700/80 backdrop-blur-sm">
               <div className="relative h-44 overflow-hidden bg-zinc-950">
-                <img src="src/assets/img/blackfriday.jpg" alt="E-commerce Portal" className="w-full h-full object-cover opacity-30 grayscale group-hover:opacity-50 group-hover:scale-105 group-hover:grayscale-0 transition-all duration-500" />
+                <img src="../public/img/blackfriday.jpg" alt="E-commerce Portal" className="w-full h-full object-cover opacity-30 grayscale group-hover:opacity-50 group-hover:scale-105 group-hover:grayscale-0 transition-all duration-500" />
               </div>
               <div className="p-6 flex flex-col flex-grow">
                 <h3 className="text-white text-lg font-bold mb-2 group-hover:text-amber-400 transition-colors">Black Friday Enterprise Sale</h3>
@@ -382,7 +382,7 @@ const App = () => {
 
             <motion.div variants={itemVariants} whileHover={{ y: -6 }} className="bg-zinc-900/30 border border-zinc-800/80 rounded-2xl overflow-hidden shadow-xl flex flex-col group transition-all duration-300 hover:border-zinc-700/80 backdrop-blur-sm">
               <div className="relative h-44 overflow-hidden bg-zinc-950">
-                <img src="src/assets/img/aariyaprimix.png" alt="Management Portal" className="w-full h-full opacity-30 grayscale group-hover:opacity-50 group-hover:scale-105 group-hover:grayscale-0 transition-all duration-500" />
+                <img src="../public/img/aariyaprimix.png" alt="Management Portal" className="w-full h-full opacity-30 grayscale group-hover:opacity-50 group-hover:scale-105 group-hover:grayscale-0 transition-all duration-500" />
               </div>
               <div className="p-6 flex flex-col flex-grow">
                 <h3 className="text-white text-lg font-bold mb-2 group-hover:text-amber-400 transition-colors">Aarya PowderPremix & Sips</h3>
@@ -402,7 +402,7 @@ const App = () => {
 
             <motion.div variants={itemVariants} whileHover={{ y: -6 }} className="bg-zinc-900/30 border border-zinc-800/80 rounded-2xl overflow-hidden shadow-xl flex flex-col group transition-all duration-300 hover:border-zinc-700/80 backdrop-blur-sm">
               <div className="relative h-44 overflow-hidden bg-zinc-950">
-                <img src="src/assets/img/viraevent.png" alt="Event Planning System" className="w-full h-full object-cover opacity-30 grayscale group-hover:opacity-50 group-hover:scale-105 group-hover:grayscale-0 transition-all duration-500" />
+                <img src="../public/img/viraevent.png" alt="Event Planning System" className="w-full h-full object-cover opacity-30 grayscale group-hover:opacity-50 group-hover:scale-105 group-hover:grayscale-0 transition-all duration-500" />
               </div>
               <div className="p-6 flex flex-col flex-grow">
                 <h3 className="text-white text-lg font-bold mb-2 group-hover:text-amber-400 transition-colors">Vira Architectural Event Planner</h3>
