@@ -378,7 +378,7 @@ const App = () => {
                 </div>
                 <div className="flex items-center gap-4 text-zinc-500 border-t border-zinc-800/80 pt-4 text-sm font-medium">
                   <a href="#" className="hover:text-white inline-flex items-center gap-1.5 transition-colors">Repository <FaGithub /></a>
-                  <a href="#" className="hover:text-white inline-flex items-center gap-1.5 transition-colors">Live Demo <FaExternalLinkAlt className="text-xs" /></a>
+                  <a href="https://black-friday2.vercel.app/" className="hover:text-white inline-flex items-center gap-1.5 transition-colors">Live Demo <FaExternalLinkAlt className="text-xs" /></a>
                 </div>
               </div>
             </motion.div>
